@@ -18,7 +18,7 @@ void load_csv(const char* filename, int* num_rows_out) {
     char line[2048];
     int row = 0;
 
-    // Header satırını atla
+    
     fgets(line, sizeof(line), file);
 
     while (fgets(line, sizeof(line), file) && row < MAX_ROWS) {
