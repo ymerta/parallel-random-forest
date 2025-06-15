@@ -4,4 +4,5 @@
 dataset/train.csv- https://www.kaggle.com/competitions/santander-customer-transaction-prediction/data 
 
 mpicc main_mpi.c tree/tree.c load_data.c -o mpi_test
+
 ./mpi_test
